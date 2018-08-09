@@ -10,7 +10,7 @@ import rootReducer from '../src/reducers';
  * @returns {Store} - Redux store.
  */
 export const storeFactory = (initialState) => {
-	createStore(rootReducer, initialState);
+	return createStore(rootReducer, initialState);
 }
 
 /**
